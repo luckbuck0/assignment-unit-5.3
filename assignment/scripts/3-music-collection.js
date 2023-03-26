@@ -39,15 +39,6 @@ function addToCollection(title, artist, yearPublished, tracks) {
 
 
 // function to show the objects in the collection var
-// function showCollection(show) {
-//     for (let i = 0; show.length > i; i++) {
-//         if (show[i].tracks != undefined) {
-//             console.log(i + 1, 'this is the name:', tracks.trackName, 'and this is the duration:', tracks.duration)
-//         }
-//         console.log('This is the length', show.length)
-//     }
-// }
-
 function showCollection(collection) {
     console.log('Total:', collection.length);
     for (const album of collection) {
